@@ -3,26 +3,11 @@
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
-        [
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ]
+        ["sd_xl_offset_example-lora_1.0.safetensors", 0.1],
+        ["None", 1.0],
+        ["None", 1.0],
+        ["None", 1.0],
+        ["None", 1.0]
     ],
     "default_cfg_scale": 4.0,
     "default_sample_sharpness": 2.0,
@@ -31,17 +16,16 @@
     "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
-    "default_styles": [
-        "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
-    ],
+    "default_styles": ["Fooocus V2", "Fooocus Enhance", "Fooocus Sharp"],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
         "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "jugernaut_negative_embedding": "https://civitai.com/api/download/models/86553?type=Negative&format=Other"
+    },
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "hands_lora": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/1269491/perfect20hands20v2.DQcT.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Perfect%20Hands%20v2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240215/us-east-1/s3/aws4_request&X-Amz-Date=20240215T155321Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a81d096f3716cc0812f31e91f45e1500bc30869fe739b6d44c164f94f053cc4d"
     }
 }
